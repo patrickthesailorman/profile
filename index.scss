@@ -1,0 +1,201 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+// body {
+//   background: #f5f5f5;
+// }
+body, html {
+    height: 100%;
+    background: #4caf50;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+  background-color: black;
+  color: rgb(20,232,30);
+  border-color: rgb(20,232,30);
+  font-family: 'Reem Kufi', sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-default .navbar-brand {
+    color: rgb(20,232,30);
+    font-family: 'Reem Kufi', sans-serif;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgb(20,232,30);
+    font-family: 'Reem Kufi', sans-serif;
+
+}
+body {
+    color: white;
+    background:black;
+}
+h1{
+  color: rgb(0,234,141);
+  font-family: 'Reem Kufi', sans-serif;
+}
+#container {
+   width: 175px;
+   height: 175px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   z-index: 1;
+}
+#container img {
+   content:url("images/selfie.jpg");
+   width: 100%;
+   border-radius: 25px;
+}
+#block2 >h1{
+  margin-left: 15%;
+  color:rgb(100, 17, 152);
+}
+#block2 >h3{
+  color:  #0119e2;
+  margin-left: 19%;
+}
+#block2 >h4{
+  color:  #562e88;
+  margin-left: 40%;
+  font-size: 22px;
+}
+#block2 >p{
+  margin-left: 19%;
+  margin-right: 15%;
+  font-size: larger;
+  color: #562e88;
+}
+#myCard {
+  margin-left: auto;
+  margin-right: auto;
+}
+#myCard img {
+  width: 25%;
+}
+.pageOne {
+  background: url("images/stars.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.pageTwo{
+  background: url("images/landscape.jpg");
+  background-size: cover;
+  background-position: center;
+  height:1000px;
+}
+.pageThree{
+  background: url("images/aurora.jpg");
+  background-size: cover;
+  background-position: center;
+  height:1000px;
+}
+.pageFour{
+  background: url("images/harbor.jpg");
+  background-size: cover;
+  background-position: center;
+  height:1000px;
+}
+.pageFour a {
+  margin-left: 3%;
+}
+.row{
+  margin-top:25%;
+  font-family: 'Reem Kufi', sans-serif;
+  margin-left: 12%;
+  max-width: 1000px;
+}
+.white-bg{
+  font-family: 'Reem Kufi', sans-serif;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.jumbotron{
+  font-family: 'Reem Kufi', sans-serif;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width:60%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(0, 251, 251);
+}
+.jumbotron >h3{
+  color:#00dafa;
+}
+.jumbotron >p{
+   color:#66f5b0;
+}
+.btn-default {
+  font-family: 'Reem Kufi', sans-serif;
+  background-color: black;
+  border-color: green;
+  color: green;
+}
+.block{
+  font-family: 'Reem Kufi', sans-serif;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width:60%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(20,232,30);
+}
+.skills {
+  color: #c1b3f9;
+  margin-left: 2%;
+}
+
+#block3 >h1 {
+  color: rgb(0,234,141);
+  margin-left: 12%;
+}
+#block3 >a  {
+    color: #92ea22;
+    background-color:transparent;
+    text-decoration: none;;
+    font: x-large;
+    margin-left: 15%;
+  }
+  #block3 >a:hover {
+    color:red;
+    background-color:transparent;
+    text-decoration:underline
+  }
+  #block3 >h3 {
+    color: purple;
+    margin-left: 12%;
+  }
+  #block3 >div {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 12%;
+    max-width: 900px;
+  }
+  div.skills.devicon span i {
+    font-size: 5rem;
+  }
+#block4 {
+  margin-left: 12%;
+}
